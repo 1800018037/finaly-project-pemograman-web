@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FINAL PROJECT WEB</title>
+	<!-- Style Css -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- Style Javascript -->
+	<script language="javascript" src="js/javascript.js"></script>
+</head>
+<body>
+
+<div class="header">
+	<h1 style="font-size: 50px; font-family: algerian;float: left;color: white;"id="jam" ></h1>
+	
+</div>
+
+<div class="menubar">
+		<ul>
+			<li><a href="index.html"><b>Home</b></a></li>
+			<li><a href="lihat_tamu.php"><b>pengunjung</b></a></li>
+			<li><a href="news.html"><b>News</a></b></li>
+			<li><a href="contact.html"><b>profil</b></a></li>
+			<form name="formcari" onSubmit="cari()"><pre>
+  			                                 <input class="search" name="keyword" type="text" placeholder="Cari..." required><input class="button" type="submit" value="Cari">
+
+  			                                
+			</form></pre>
+		</ul>
+</div>
+
+<div class="menu2">
+	<b><center>
+		<font color="white">
+		<h2><b>SELAMAT DATANG DI WEB SAYA</b></h2>
+		<h4>Silahkan mengisi form data diri anda yang lengkap :</h4>
+
+	</center>
+	<br><br><br><br><center>
+	<form method="post" action="proses.php">
+	<table>
+		<tr>
+			<td>Nama</td><td>&nbsp:&nbsp&nbsp&nbsp</td>
+			<td><input type="text" name="nama" required="required"></td>
+		</tr>
+		<tr>
+			<td>Tanggal Lahir</td><td>&nbsp:</td>
+			<td><input type="date" name="tanggal" required="required"></td>
+		</tr>
+		<tr>
+			<td>Jenis Kelamin</td><td>&nbsp:</td>
+			<td><input type="radio" name="jk" value="Laki-Laki" checked />Laki-Laki
+			<input type="radio" name="jk" value="Perempuan">Perempuan</td>
+		</tr>
+		<tr>
+			<td>Alamat</td><td>&nbsp:</td>
+			<td><textarea name="alamat" required="required"></textarea></td>
+		</tr>
+		<tr>
+			<td>Agama</td><td>&nbsp:</td>
+			<td>
+			<select name="agama">
+				<option value="Islam">Islam</option>
+				<option value="Kristen">Kristen</option>
+				<option value="Hindu">Hindu</option>
+				<option value="Budha">Budha</option>
+				<option value="Protestan">Protestan</option>
+			</select>	
+			</td>
+		</tr>
+		<tr>
+			<td></td><td></td>
+			<td><input type="submit" name="kirim" value="submit"></td>
+		</tr>
+		<script type="text/javascript">
+															 window.setTimeout("waktu()", 1000);//
+															 function waktu(){//fungsi pada waktu
+															  var tanggal = new Date();
+															  setTimeout("waktu()", 1000);
+															  document.getElementById('jam').innerHTML= tanggal.getHours()+" : "+tanggal.getMinutes()+" : "+tanggal.getSeconds();
+															 }
+															</script>	
+	</font>
+	</table>
+</form>
+</div>
+
+</body>
+</html>

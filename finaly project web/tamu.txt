@@ -1,0 +1,3 @@
+andri|2001-02-01|Laki-Laki|bantul,banguntapan pleret|Islam
+naufal|2000-11-02|Laki-Laki|jln glagasari|Kristen
+anggela|1999-01-01|Perempuan|jln pugeran,sleman|Protestan

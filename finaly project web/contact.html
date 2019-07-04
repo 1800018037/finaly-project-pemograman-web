@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FINAL PROJECT WEB</title>
+	<!-- Style Css -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- Style Javascript -->
+	<script language="javascript" src="js/javascript.js"></script>
+</head>
+<body>
+
+<div class="header">
+	
+	
+</div>
+
+<div class="menubar">
+		<ul>
+			<li><a href="index.html"><b>Home</b></a></li>
+			<li><a href="lihat_tamu.php"><b>pengunjung</b></a></li>
+			<li><a href="news.html"><b>News</a></b></li>
+			<li><a href="contact.html"><b>profil</b></a></li>
+			<center><form name="formcari" onSubmit="cari()"><pre>
+  			                                    			<input class="search" name="keyword" type="text" placeholder="Cari..." required><input class="button" type="submit" value="Cari">		
+			</form></pre></center>
+		</ul>
+</div>	
+
+<div class="menu2">
+	<center> <font color="white"size="20" face="rog fonts"><b>PEMROGRAMAN WEB</b></font></center>
+	<center> <font color="white"size="30" face="rog fonts"><b>PROFILE</b></font></center>
+	<br><br><br><br>
+	</br>
+
+	
+	<table style="margin-left: 200px; font-size: 18px; text-align: left;">
+		<center><img src="img/IMG-20181003-WA0109.jpg" width="200px" height="200px">
+			<br><br><br>
+		<tr>
+			<td><b>Nama</b><td></td><td></td><td></td></td><td>:</td><td>Andri A.Hafid</td>
+		</tr>
+		<tr>
+			<td><b>Umur</b><td></td><td></td><td></td></td><td>:</td><td>18 Tahun</td>
+		</tr>
+		<tr>
+			<td><b>Tanggal Lahir</b><td></td><td></td><td></td></td><td>:</td><td>ternate, 21 januari 2001</td>
+		</tr>
+		<tr>
+			<td><b>Alamat</b><td></td><td></td><td></td></td><td>:</td><td>Jln.sitimulyo segoroyoso,banguntapan, Yogyakarta</td>
+		</tr>
+		<tr>
+			<td><b>Fakultas</b><td></td><td></td><td></td></td><td>:</td><td>Teknologi Industri</td>
+		</tr>
+		<tr>
+			<td><b>Jurusan</b><td></td><td></td><td></td></td><td>:</td><td>Teknik Informatika</td>
+		</tr>
+		<tr>
+			<td><b>Email</b><td></td><td></td><td></td></td><td>:</td><td>andri1800018037@webmail.uad.ac.id</td>
+		</tr>
+		<tr>
+			<td><b>Telepon</b><td></td><td></td><td></td></td><td>:</td><td>082254183970</td>
+		</tr>
+	</center>
+	</table>
+	<script language="javascript" type="text/javascript">var c;var celcius1=prompt("Masukkan nilai Celcius awal","");var celcius2=prompt("Masukkan nilai Celcius akhir","");var fah,kel,ran,del,newt,rea,rom;celcius1=parseInt(celcius1);celcius2=parseInt(celcius2);document.write("<fontcolor='blue'><center><b>KonversiSuhu</b></center></font>");document.write("<table align='center' border='1'width='800'>" + "<tr><td width='100'>Celcius</td><tdwidth='100'>Fahrenheit</td><td width='100'>" +"Kelvin</td><td width='100'>Rankine</td><tdwidth='100'>Delisle</td><tdwidth='100'>Newton</td><td width='100'>Reamur</td><td width='100'>Romer</td></tr>");for(c=celcius1;c<=celcius2;c++) {fah=c*1.8+32;kel=c+273.15;ran=c*1.8+491.67;del=(100-c)*1.5;newt=c*33/100;rea=c*0.8;rom=c*21/40+7.5;document.write("<tr><td>"+c+"</td>"+"<td>"+fah+"</td>"+"<td>"+kel+"</td><td>"+ran+"</td><td>"+del+"</td><td>"+newt+" </td><td>"+rea+"</td><td>"+rom+"</td></tr>"); }document.write("</table>");</script>
+</div>
+
+</body>
+</html>
